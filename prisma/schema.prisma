@@ -43,7 +43,7 @@ model Project {
   projectImage        
   projectUrl          String?
   user                User      @relation(fields: [userId], references: [id])
-  userI\d              Int
+  userId              Int
 }
 
 model Skill {
